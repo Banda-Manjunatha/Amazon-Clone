@@ -10,7 +10,6 @@ The Amazon Clone project is a web application that replicates the visual appeara
 - [Description](#description)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Future Enhancements](#future-enhancements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -29,10 +28,6 @@ The Amazon Clone project is designed to replicate the user interface and layout 
 List of key features implemented in the current version:
 - Static replication of Amazon's visual layout.
 - Responsive design for optimal viewing on various devices.
-
-## Future Enhancements
-
-Stay tuned for updates as the Amazon Clone evolves to offer a more immersive and feature-rich shopping experience.
 
 ## Installation
 
