@@ -1,5 +1,7 @@
 # Amazon Clone
 
+Welcome to my personal Amazon Clone project!  Experience the look and feel of online retail with my Amazon clone project. While currently focused on visual representation using HTML and CSS, stay tuned for upcoming enhancements.
+
 ## Table of Contents
 
 - [Description](#description)
