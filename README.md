@@ -1,10 +1,5 @@
 # Amazon Clone
 
-
-
-
-The Amazon Clone project is a web application that replicates the visual appearance and layout of the popular e-commerce platform, Amazon. The current version focuses on building the static structure and styling using HTML and CSS technologies. Future enhancements will introduce dynamic functionality through JavaScript and a responsive webpage.
-
 ## Table of Contents
 
 - [Description](#description)
