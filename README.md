@@ -40,12 +40,12 @@ Follow these steps to clone and set up the project locally:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Banda-Manjunatha/Myprojects.git
+    git clone https://github.com/Banda-Manjunatha/Amazon-Clone.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd Myprojects
+    cd Amazon-Clone
     ```
 
 3. **Open index.html in your preferred browser:**
