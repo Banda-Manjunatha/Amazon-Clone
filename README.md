@@ -78,3 +78,8 @@ If you would like to contribute to the project, follow these steps:
     git push origin feature/awesome-feature
     ```
 5. **Open a pull request on GitHub.**
+
+## Thank You for Exploring and Best of Luck!
+
+Thank you for checking out the Amazon Clone project! Your interest is greatly appreciated. Best of luck with your endeavors!
+
