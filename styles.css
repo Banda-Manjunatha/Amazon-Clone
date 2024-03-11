@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  overflow: auto;
+  overflow: hidden;
 }
 .nav-logo {
   width: 110px;
@@ -163,6 +163,7 @@ span {
   color: white;
   align-items: center;
   gap: 1%;
+  overflow: hidden;
 }
 .menu {
   width: fit-content;
@@ -499,9 +500,16 @@ footer {
   background-color: #222f3d;
   color: white;
   height: auto;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-bottom: 4%;
+  justify-content: flex-start;
+  overflow: hidden;
+  gap: 2%;
+}
+ul{
+  padding: 10px;
+  margin: 0;
 }
 ul p {
   font-size: 16px;
@@ -792,7 +800,7 @@ ul a {
  @media(max-width:500px){
   .row{
     grid-template-columns: 1fr 1fr;
-    margin: 2% 2% 15% 2%;
+    margin: 2% 2% 20% 2%;
   }
   .box9{
     display: none;
