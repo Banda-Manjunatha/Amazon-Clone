@@ -22,9 +22,9 @@
   height: 50px;
 }
 .logo {
-  background-image: url("images/amazon_logo.png");
-  height: 45px;
-  width: 100px;
+  background-image: url("./images/amazon_logo.png");
+  height: 100%;
+  width: 100%;
   background-size: cover;
   margin-left: 5px;
 }
@@ -161,11 +161,13 @@ span {
   justify-content: flex-start;
   background-color: #222f32;
   color: white;
+  align-items: center;
+  gap: 1%;
 }
 .menu {
   width: fit-content;
   display: flex;
-  width: 58px;
+  width: auto;
   justify-content: center;
   align-items: center;
   border: none;
@@ -180,15 +182,17 @@ span {
   font-size: 19px;
 }
 .sec {
+  width: auto;
   display: flex;
-  align-items: center;
   font-size: 14.5px;
-  height: 39;
   border: none;
+  justify-content: space-evenly;
+  gap: 10px;
+  height: 100%;
 }
 .sec p {
-  height: 39;
-  padding: 10px;
+  display: flex;
+  align-items: center;
 }
 .sec2 {
   display: flex;
@@ -232,20 +236,27 @@ span {
   padding-top: 10px;
   background-color: #cccccc;
   justify-content: center;
+  padding-bottom: 3%;
 }
 .box {
   height: 420px;
-  width: 23%;
+  width: 100%;
   background-color: #ffffff;
 }
-.row1 {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 2%;
+  margin: 2%;
 }
-.row2 {
-  display: flex;
-  justify-content: space-evenly;
+
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin: 3rem 0 2rem 0;
+  padding-left: 3%;
 }
 .break-line1 {
   height: 20px;
@@ -260,7 +271,8 @@ span {
 }
 .box1a {
   background-image: url("images/box1a.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 
 .img {
@@ -280,129 +292,163 @@ span {
   font-size: 13px;
   margin-left: 20px;
 }
+.box9{
+  display: none;
+}
 .box1b {
   background-image: url("images/box1b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box1c {
   background-image: url("images/box1c.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box1d {
   background-image: url("images/box1d.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box2a {
   background-image: url("images/box2a.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box2b {
   background-image: url("images/box2b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box2c {
   background-image: url("images/box2c.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box2d {
   background-image: url("images/box2d.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box3a {
   background-image: url("images/box3a.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box3b {
   background-image: url("images/box3b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box3c {
   background-image: url("images/box3c.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box3d {
   background-image: url("images/box3d.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box4a {
   background-image: url("images/box4a.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box4b {
   background-image: url("images/box4b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box4c {
   background-image: url("images/box4c.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box4d {
   background-image: url("images/box4d.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box5a {
   background-image: url("images/box5a.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box5b {
   background-image: url("images/box5b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box5c {
   background-image: url("images/box5c.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box5d {
   background-image: url("images/box5d.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box6a {
   background-image: url("images/box6b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box6b {
   background-image: url("images/box6b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box6c {
   background-image: url("images/box6c.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box6d {
   background-image: url("images/box6d.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box7a {
   background-image: url("images/box7a.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box7b {
   background-image: url("images/box7b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box7c {
   background-image: url("images/box7c.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box7d {
   background-image: url("images/box7d.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box8a {
   background-image: url("images/box8a.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box8b {
   background-image: url("images/box8b.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box8c {
   background-image: url("images/box8c.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .box8d {
   background-image: url("images/box8d.jpg");
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
 }
 .shop-section a {
   text-decoration: none;
@@ -443,17 +489,19 @@ footer {
 .foot-panel1 {
   background-color: #37475a;
   color: white;
-  height: 50px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3%;
 }
 .foot-panel2 {
   background-color: #222f3d;
   color: white;
-  height: 300px;
+  height: auto;
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 4%;
 }
 ul p {
   font-size: 16px;
@@ -510,83 +558,353 @@ ul a {
   font-size: 12px;
   margin-top: 5px;
 }
-/* Mobile Styles */
-@media screen and (max-width: 767px) {
-  .navbar {
-    flex-direction: column;
-    align-items: stretch;
+.foot-panel3 img{
+  width: 100px;
+}
+
+@media(max-width:1280px){
+  .book-container{
+    justify-content: space-evenly;
+  }
+  .book{
+    width: 13%;
+  }
+  
+  .book img {
+      width:100%;
+      height: 100%;
+  }
+  .logo{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media(max-width:1024px){
+  .navbar{
+    width: 100%;
+  }
+  .nav-logo{
+    width: 10%;
+  }
+  .nav-address{
+    width: 10%;
+  }
+  .nav-search{
+    width: 34%;
+  }
+  .nav-lang{
+    width: 7%;
+  }
+  .nav-signin{
+    width: 14%;
+  }
+  .nav-orders{
+    width: 8%;
+  }
+  .nav-cart{
+    width: 9%;
+  }
+  .book{
+    width: 13%;
+  }
+  .img{
+    height: 110px;
+    width: 110px;
+  }
+  .content{
+    padding-left: 3%;
+    margin: 1rem 0 1rem 0;
+  }
+  .heading{
+    font-size: 17px;
+  }
+  .book img{
+    height: 100%;
+    width: 109%;
+  }
+  .shop-section{
+    padding-bottom: 5%;
+  }
+  
+  ul p{
+    font-size: 14px;
+  }
+  ul a{
+    font-size: 12px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+    gap: 2%;
+    margin: 2%;
+  }
+  .box9{
+    display: block;
+  }
+  .sec {
+    width: auto;
+  }
+}
+
+@media(max-width:800px){
+  .navbar{
+    width: 100%;
+    gap: 0;
+    padding: 0;
+  }
+  .logo{
+    height: 20px;
+    width: 70px;
+    background-size: cover;
+    background-position: center;
+  }
+  .nav-logo{
+    width: 10%;
+    display: flex;
+    align-items: center;
+  }
+  .nav-address p{
+    font-size: 11px;
+  }
+  .nav-address b{
+    font-size: 12px;
+  }
+  .nav-address i{
+    font-size: .8rem;
+  }
+  .nav-address{
+    width: 11%;
+  }
+  .nav-search{
+    width: 30%;
+  }
+  .nav-search input{
+    font-size: .8rem;
+  }
+  .nav-lang{
+    width: 10%;
+  }
+  .lang-logo{
+    width: 1rem;
+    background-position: center;
+    background-size: cover;
+  }
+  .lang-select{
+    font-size: 10px;
+  }
+  .nav-signin{
+    width: 14%;
+  }
+  .nav-signin p{
+    font-size: 10px;
+  }
+  .account{
+    font-size: 12px;
+    word-wrap: break-word;
+    width: 80px;
+  }
+  .nav-orders{
+    width: 8%;
+  }
+  .nav-orders p, .nav-orders span{
+    font-size: 10px;
+  }
+  .nav-cart{
+    width: 9%;
+  }
+  .row{
+    gap: 2%;
+    margin: 2% 2% 5% 2%;
+  }
+  .nav-cart i{
+    font-size: 15px;
+  }
+  .nav-cart p{
+    font-size: 12px;
+  }
+  .book{
+    width: 13%;
+  }
+  .img{
+    height: 80px;
+    width: 70px;
+  }
+  .content{
+    padding-left: 3%;
+    margin: 1rem 0 1rem 0;
     height: auto;
   }
-
-  .nav-logo,
-  .nav-address,
-  .nav-search,
-  .nav-lang,
-  .nav-signin,
-  .nav-orders,
-  .nav-cart {
-    width: 100%;
-    margin: 10px 0;
+  .box{
+    height: auto;
+    padding-bottom: 15%;
+  }
+  .heading{
+    font-size: 17px;
+  }
+  .book img{
+    height: 100%;
+    width: 109%;
+  }
+  ul p{
+    font-size: 12px;
+  }
+  ul a{
+    font-size: 10px;
+  }
+  .panel p{
+    font-size: 12px;
+  }
+  .prime{
+    font-size: 12px;
+  }
+  .hero-msg{
+    font-size: 10px;
+    text-align: center;
+  }
+  .hero-section{
+    height: 200px;
   }
 
-  .search-select,
-  .search-input,
-  .lang-select,
-  .account,
-  .prime {
-    width: 100%;
-    margin: 10px 0;
+  .heading p{
+    font-size: .9rem;
   }
-
-  .panel {
-    flex-direction: column;
-    align-items: stretch;
+  .shop-section a{
+    font-size: 12px;
   }
-
-  .menu,
-  .sec,
-  .sec2 {
-    width: 100%;
-    margin: 10px 0;
+  .book-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-
-  .box {
-    width: 100%;
-    margin: 10px 0;
+  .book{
+    width: 90%;
   }
-
-  .row1,
-  .row2 {
-    flex-direction: column;
+  .pages a{
+    font-size: 10px;
   }
-
-  .break-line1 {
+  .time p{
+    font-size: 9px;
+  }
+  .foot-panel1 {
+    font-size: 15px;
+  }
+}
+ @media(max-width:500px){
+  .row{
+    grid-template-columns: 1fr 1fr;
+    margin: 2% 2% 15% 2%;
+  }
+  .box9{
+    display: none;
+  }
+  .panel{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .sec{
+    gap: 2px;
+  }
+  .menu{
+    margin-right: 5px;
+  }
+  .menu i{
+    font-size: 10px;
+  }
+  .panel p{
+    font-size: 10px;
+    padding:0;
+    margin: 0;
+  }
+  .prime{
+    font-size: 10px;
+  }
+  .navbar{
+    height: auto;
+  }
+  .logo{
+    height: 20px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-address p{
+    font-size: 9px;
+    word-wrap: break-word;
+    width: 30px;
+  }
+  .nav-address b{
+    font-size: 11px;
+    padding: auto;
+  }
+  .nav-address i{
+    font-size: .7rem;
+  }
+  .nav-logo{
+    width: fit-content;
+  }
+  .nav-address{
+    width: 13%;
+    margin:0 ;
+    padding: 0;
+  }
+  .nav-search{
+    width: 25%;
+    height: 30px;
+  }
+  .nav-search input{
+    font-size: 11px;
+  }
+  .search-select{
+    width: fit-content;
+    font-size: 10px;
+  }
+  .search-icon{
+    font-size: 13px;
+  }
+  .nav-lang{
+    width: auto;
+  }
+  .lang-logo{
+    width: 15px;
     height: 10px;
   }
-}
-
-/* Tablet Styles */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .img {
-    margin: 5px;
-    height: 85px;
-    width: 90%;
-    object-fit: cover;
+  .lang-select{
+    font-size: 10px;
   }
-  .heading {
-    font-size: 1.1rem;
-  }
-  .book img {
+  .nav-signin{
+    width: 13%;
     overflow: hidden;
-    background-color: pink;
   }
-}
+  .nav-signin p span{
+    font-size: 10px;
+    word-wrap: break-word;
+    padding: auto;
+    margin: auto;
+  }
+  .account{
+    font-size: 10px;
+    word-wrap: break-word;
+    margin: auto;
+    padding: 0;
+  }
+  .navbar{
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+  }
+  .nav-orders{
+    width: auto;
+    margin: 0 ;
+    text-align: center;
+  }
+  .nav-cart i{
+    font-size: 10px;
+  }
+  .nav-cart p{
+    font-size: 10px;
+  }
+ }
 
-/* Desktop Styles */
-@media screen and (min-width: 1024px) {
-  .img {
-    min-width: 100px;
-    margin: 5px;
-    max-width: 100%;
-  }
-}
