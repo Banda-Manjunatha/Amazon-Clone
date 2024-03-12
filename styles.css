@@ -20,13 +20,14 @@
 .nav-logo {
   width: 110px;
   height: 50px;
+  position: relative;
 }
-.logo {
-  background-image: url("./images/amazon_logo.png");
-  height: 100%;
+.nav-logo img{
   width: 100%;
+  height: 100%;
+  background-position: center;
   background-size: cover;
-  margin-left: 5px;
+  position: static;
 }
 .border {
   border: 1.5px solid transparent;
@@ -111,8 +112,11 @@
 }
 /*Box-5*/
 .nav-signin {
-  height: 50px;
+  height: auto;
   width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 span {
   font-size: 12px;
@@ -144,12 +148,12 @@ span {
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .nav-cart i {
   font-size: 30px;
 }
 .nav-cart p {
-  margin-top: 10px;
   margin-left: 2px;
   font-weight: 700;
 }
@@ -711,7 +715,7 @@ ul a {
     font-size: 10px;
   }
   .nav-signin{
-    width: 14%;
+    width: fit-content;
   }
   .nav-signin p{
     font-size: 10px;
@@ -722,10 +726,12 @@ ul a {
     width: 80px;
   }
   .nav-orders{
-    width: 8%;
+    width: fit-content;
+    height: auto;
   }
   .nav-orders p, .nav-orders span{
     font-size: 10px;
+    justify-content: center;
   }
   .nav-cart{
     width: 9%;
@@ -840,97 +846,124 @@ ul a {
   .prime{
     font-size: 10px;
   }
-  .navbar{
-    height: auto;
+  select{
+    appearance: none;
   }
-  .logo{
+  .nav-logo img{
+    width: 40px;
     height: 20px;
-    width: 50px;
-    background-size: cover;
-    background-position: center;
-    padding: 0;
-    margin: 0;
+    position: relative;
   }
   .nav-address p{
-    font-size: 9px;
-    word-wrap: break-word;
+    font-size: 7px;
     width: 30px;
+    margin: 0;
   }
   .nav-address b{
-    font-size: 11px;
+    font-size: 9px;
     padding: auto;
   }
   .nav-address i{
-    font-size: .7rem;
+    font-size: .5rem;
   }
   .nav-logo{
     width: fit-content;
   }
   .nav-address{
     width: 13%;
+    height: 30px;
     margin:0 ;
     padding: 0;
+    -webkit-box-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .nav-search{
-    width: 25%;
-    height: 30px;
+    width: 33%;
+    height: 20px;
+    -webkit-box-align: start;
   }
   .nav-search input{
-    font-size: 11px;
+    font-size: 7px;
   }
   .search-select{
-    width: fit-content;
-    font-size: 10px;
+    width: 30px;
+    font-size: 7px;
+    padding-left: 5px;
   }
+ 
   .search-icon{
-    font-size: 13px;
+    font-size: 8px;
   }
   .nav-lang{
     width: auto;
     display: flex;
+    -webkit-box-align: start;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0;
+    border: 0;
   }
   .nav-lang p{
-    font-size: 10px;
+    font-size: 6px;
     padding-right: 2px;
   }
   .lang-logo{
-    width: 15px;
-    height: 10px;
+    width: 13px;
+    height: 9px;
   }
   .lang-select{
     font-size: 10px;
   }
   .nav-signin{
-    width: 13%;
-    overflow: hidden;
+    width: 15%;
+    -webkit-box-align: start;
+    padding: 0;
+    margin: 0;
+    border: 0;
   }
   .nav-signin p span{
-    font-size: 10px;
-    word-wrap: break-word;
-    padding: auto;
-    margin: auto;
+    font-size: 5px;
+    height: 50%;
+    padding: 0;
+    margin: 0;
   }
   .account{
-    font-size: 10px;
-    word-wrap: break-word;
-    margin: auto;
-    padding: 0;
+    font-size: 6px;
+    height: 50%;
   }
   .navbar{
     justify-content: flex-start;
     align-items: center;
-    height: 50px;
+    height: 30px;
   }
   .nav-orders{
-    width: auto;
+    width: 11%;
     margin: 0 ;
     text-align: center;
+    -webkit-box-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+  .nav-orders .nav-second{
+    font-size: 7px;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+  }
+  .nav-orders p span{
+    font-size: 6px;
+  }
+  
   .nav-cart i{
-    font-size: 10px;
+    font-size: 7px;
   }
   .nav-cart p{
-    font-size: 10px;
+    font-size: 7px;
   }
  }
 
