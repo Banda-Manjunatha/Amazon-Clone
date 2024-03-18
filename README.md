@@ -3,6 +3,11 @@
 Welcome to my personal Amazon Clone project!  Experience the look and feel of online retail with my Amazon clone project. At present it is a Static website only.
 I used Html, CSS and added responsive web design for the website to maintain cross browser compatibility.
 
+## Live Demo
+
+To explore the Amazon Clone online, simply visit the following link:
+[Amazon Clone Live Demo](https://manjunath-amazon-clone.netlify.app/)
+
 ## Table of Contents
 
 - [Description](#description)
