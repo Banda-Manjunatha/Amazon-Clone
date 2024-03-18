@@ -1,6 +1,7 @@
 # Amazon Clone
 
-Welcome to my personal Amazon Clone project!  Experience the look and feel of online retail with my Amazon clone project. While currently focused on visual representation using HTML and CSS, stay tuned for upcoming enhancements.
+Welcome to my personal Amazon Clone project!  Experience the look and feel of online retail with my Amazon clone project. At present it is a Static website only.
+I used Html, CSS and added responsive web design for the website to maintain cross browser compatibility.
 
 ## Table of Contents
 
@@ -13,7 +14,7 @@ Welcome to my personal Amazon Clone project!  Experience the look and feel of on
 
 ## Description
 
-The Amazon Clone project is designed to replicate the user interface and layout of the Amazon e-commerce platform. It is built using HTML and CSS technologies, providing a static structure and visually appealing design. The upcoming development phases will introduce JavaScript functionality to make the application interactive and dynamic and giving responsiveness to the web page.
+The Amazon Clone project is designed to replicate the user interface and layout of the Amazon e-commerce platform. It is built using HTML, CSS and added responsive web design for cross browser compatibility, providing a static structure and visually appealing design. The upcoming development phases will introduce JavaScript functionality to make the application interactive and dynamic and giving responsiveness to the web page.
 
 ## Technologies Used
 
